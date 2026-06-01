@@ -9,11 +9,6 @@ public class Calculator
     
     public int Sub(int a, int b)
     {
-        int tall1 = a;
-        int tall2 = b;
-
-        int sum = tall1 - tall2;
-
-        return sum;
+        return a - b;
     }
 }
