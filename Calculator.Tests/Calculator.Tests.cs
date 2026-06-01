@@ -17,4 +17,20 @@ public class CalculatorTests
         // Assert: Sjekker om resultatet er riktig
         Assert.Equal(9, result);
     }
+    /* Arrange: Vi lager en kalkulator
+       Act: Vi legger sammen 4 og 5
+       Assert: Resultaet skal være 9
+    */
+    [Fact]
+    public void Subtract_TwoNumbers_ReturnsCorrectSum()
+    {
+        // Arrange
+        var calculator = new Calculator();
+    
+        // Act
+        var result = calculator.Sub(8, 2);
+    
+        // Assert
+        Assert.Equal(6, result);
+    }
 }
