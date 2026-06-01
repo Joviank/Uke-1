@@ -33,4 +33,32 @@ public class CalculatorTests
         // Assert
         Assert.Equal(6, result);
     }
+
+    [Fact]
+    public void Multiply_TwoNumbers_ReturnsCorrectSum()
+    {
+        // Arrange
+    
+        // Act
+    
+        // Assert
+    }
+
+    [Fact]
+    public void Divide_TwoNumbers_ReturnsCorrectSum()
+    {
+        // Arrange
+    
+        // Act
+    
+        // Assert
+    }
+
+    [Fact]
+    public void Divide_ByZero_ThrowsException()
+    {
+        // Arrange
+
+        // Act & Assert
+    }
 }
